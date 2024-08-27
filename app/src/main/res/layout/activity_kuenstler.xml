@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Kuenstler">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/nav_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+
+        <Button
+            android:id="@+id/Kuenstler_button1"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:text="Zurück"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Künstler"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/Kuenstler_button3"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Apelles"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+
+        <Button
+            android:id="@+id/Kuenstler_button4"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Giotto di Bondone "
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/Kuenstler_button5"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Leonardo da Vinci "
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+
+        <Button
+            android:id="@+id/Kuenstler_button6"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Caspar David Friedrich"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/Kuenstler_button7"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Claude Monet "
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/Kuenstler_button8"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Pierre-Auguste Renoir"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/Kuenstler_button9"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Gustav Klimt"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+
+        <Button
+            android:id="@+id/Kuenstler_button10"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Pablo Picasso"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+
+        <Button
+            android:id="@+id/Kuenstler_button11"
+            android:layout_width="387dp"
+            android:layout_height="78dp"
+            android:backgroundTint="@color/white"
+            android:text="Salvador Dalí "
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
